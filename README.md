@@ -1,36 +1,44 @@
-# Marks Prediction Using Machine Learning
+Marks Prediction Using Machine Learning
 
-## Project Overview
-This project predicts student marks based on study-related features using regression techniques. The goal is to analyze the relationship between study habits and academic performance and build a predictive model.
+Project Overview
+This project predicts student marks based on study-related features using regression techniques. The goal is to understand how different study habits and academic factors affect performance and build a model to estimate final marks.
 
-## Dataset
-The dataset contains student-related features such as study hours and other relevant academic factors.
+Dataset
+The dataset contains student-related features such as study time, number of failures, absences, and previous grades (G1, G2).
 
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
+Technologies Used
+Python
+Pandas
+NumPy
+Matplotlib
+Scikit-learn
 
-## Data Preprocessing
-- Handling missing values
-- Encoding categorical variables (if any)
-- Feature scaling (if applied)
-- Train-test split
+Data Preprocessing
+Handling missing values (none were present)
+Dropping less relevant features
+Encoding categorical variables
+Train-test split
 
-## Model
-A regression model was implemented to predict student marks.
+Model
+A Linear Regression model was used to predict student marks.
 
-## Evaluation Metrics
-- R² Score
-- Mean Squared Error (MSE)
+Evaluation Metrics
+R² Score: 0.86
+Mean Absolute Error (MAE): 1.06
 
-## How to Run
-1. Clone the repository.
-2. Install dependencies:
-   pip install -r requirements.txt
-3. Open and run the notebook inside the `notebook` folder.
+Sample Prediction
+Predicted mark: 9.17
+Actual mark: 9
 
-## Author
+How to Run
+Clone the repository
+Install dependencies using: pip install -r requirements.txt
+Open and run the notebook
+
+Future Improvements
+Try other regression models
+Improve feature selection
+Deploy the model as a web application
+
+Author
 Tanya Mariam Viji
